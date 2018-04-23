@@ -168,17 +168,17 @@
 
      <script type="text/javascript">
         $(function() {
+            $(".scroll").click(function() {
+                var target = $(this).data("href");
+                $("html, body").animate({ scrollTop: $(target).offset().top }, 400)
+            });
+
             new daum.roughmap.Lander({
                 "timestamp" : "1521796428472",
                 "key" : "ncmu",
                 "mapWidth" : "520",
                 "mapHeight" : "300"
             }).render();
-
-            $(".scroll").click(function() {
-                var target = $(this).data("href");
-                $("html, body").animate({ scrollTop: $(target).offset().top }, 400)
-            });
         });
     </script>
 </body>
