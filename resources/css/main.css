@@ -14,7 +14,7 @@ img{ max-width: 100%; border:0;}
     margin-top: 0px;
     margin-bottom: 0px;
 }
-body { line-height: 1em;   margin: 0 auto;  overflow-x: hidden;   }
+body { line-height: 1em;   margin: 0 auto;   overflow-x: auto;  }
 .container-fluid { padding-left: 0px; padding-right: 0px; }
 .container {  padding-right: 0px;  padding-left: 0px;  }
 .dropdown-menu { font-size: 13px;  }
