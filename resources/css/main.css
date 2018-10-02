@@ -44,7 +44,7 @@ p { margin: 0 0 0px; }
 .main_view .text h2 { position: absolute; left: 30px; top: 50px; font-family: 'Open Sans','Arial', 'Century Gothic','nanum-gothic', sans-serif;  font-weight: 700; font-size: 102px;   color: #4b4b4b; text-shadow: 4px 4px 0px rgba(255,255,255,1);  }
 .main_view .text p { position: absolute; left: 30px; top: 286px; color: #8d8d8d; font-weight: 600; font-style: italic; font-size: 34px; color: white; text-shadow: 2px 2px 0px rgba(64,64,64,1); line-height: 58px;}
 
-.sub_depth { padding-bottom:   8%;  min-width: 100%; }
+.sub_depth { padding-bottom:   8%;  }
 .sub_depth h2 { padding-top: 60px; font-size: 40px; text-transform: capitalize; color: #4b4b4b; margin-bottom: 84px; }
 .sub_depth h2 span { font-size: 45px; color: #a1a1a1; }
 .sub_depth hr.subtitle_line { width: 96px;  border: 4px solid #d60050; border-bottom: none; border-radius: 2px;  margin-bottom: 46px; display: none; }
